@@ -1,0 +1,36 @@
+#body {
+    background-image: url("wyz\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 60%;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: relative;
+    /* 为子元素定位提供参考 */
+}
+
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* 绝对定位 */
+    bottom: 40px;
+    /* 距离页面底部 20px */
+    width: 100%;
+    /* 占满宽度 */
+}
+
+#footer {
+    position: absolute;
+    background-color: blanchedalmond;
+    width: 100%;
+    line-height: 6px;
+    bottom: 0;
+    text-align: center;
+}
